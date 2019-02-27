@@ -70,10 +70,10 @@ namespace TicTacToe
         }
 
         private void Field1_Button_Click(object sender, RoutedEventArgs e)
-        {
+        {      
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 0, 0, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 0, 0, Field1_Button));
             }
         }
 
@@ -81,7 +81,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 0, 1, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 0, 1, Field2_Button));
             }
         }
 
@@ -89,7 +89,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 0, 2, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 0, 2, Field3_Button));
             }
         }
 
@@ -97,7 +97,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 1, 0, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 1, 0, Field4_Button));
             }
         }
 
@@ -105,7 +105,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 1, 1, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 1, 1, Field5_Button));
             }
         }
 
@@ -113,7 +113,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 1, 2, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 1, 2, Field6_Button));
             }
         }
 
@@ -121,7 +121,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 2, 0, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 2, 0, Field7_Button));
             }
         }
 
@@ -129,7 +129,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 2, 1, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 2, 1, Field8_Button));
             }
         }
 
@@ -137,7 +137,7 @@ namespace TicTacToe
         {
             if (!gameFinished)
             {
-                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 2, 2, (Button)sender));
+                Checker(logic.MakeAMove(fieldCurrentState, logic.CurrentPlayer, 2, 2, Field9_Button));
             }
         }
     }
